@@ -59,9 +59,9 @@
     </nav>
     <!-- Header  -->
     <header class="vh-100 d-flex">
-        <div class="container align-self-center w-75" data-mdb-animation-init data-mdb-animation-start="onload" data-mdb-animation="slide-in-left">
-            <h1> Welcome, <br>Next Generation Enterprenuers! </h1>
-            <h4>
+        <div class="container align-self-center w-75 bg-light p-3 rounded" style="--bs-bg-opacity: .5;">
+            <h1 class="fade-in"> Welcome, <br>Next Generation Enterprenuers! </h1>
+            <h4 class="fade-in">
                 NGE provides the next generation entrepreneurs a platform to showcase their innovative solutions, and
                 have a glance into the ever evolving market.
             </h4>
@@ -72,8 +72,8 @@
     <section id="entreprenuers">
         <div class="container py-5">
             <div class="row">
-                <div class="col">
-                    <p class="small fw-lighter">Find out what's in store for you.</p>
+                <div class="col fade-in">
+                    <p class="small fw-lighter fade-in">Find out what's in store for you.</p>
                     <h2>Are you an Entrepreneur ? </h2>
 
                     <p class="fw-light">
@@ -85,8 +85,8 @@
                 </div>
                 <div class="col-md-6">
                     <!-- containers  -->
-                    <div class="card p-3 mb-3 bg-dark text-white">
-                        <img src="./images/ep.jpg" style="height: 200px;">
+                    <div class="card fade-in p-3 mb-3 bg-dark text-white">
+                        <img src="./images/drk.png" style="height: 200px;">
                         <div class="card-body">
                             <h4 class="fw-bold">Meet a group of like-minded individuals!</h4>
                             <p class="card-text">We look upto a community of entrepreneurs, investors, researchers,
@@ -98,7 +98,7 @@
                         </div>
                     </div>
 
-                    <div class="card p-3 mb-3">
+                    <div class="card fade-in p-3 mb-3">
                         <img src="./images/2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h4 class="fw-bold">Show your solution to the world!</h4>
@@ -111,8 +111,8 @@
                         </div>
                     </div>
 
-                    <div class="card p-2 mb-3 bg-dark text-white">
-                        <img src="./images/img.jpeg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card fade-in p-2 mb-3 bg-dark text-white">
+                        <img src="./images/dm.png" class="card-img-top" alt="..." style="height: 200px;">
                         <div class="card-body">
                             <h4 class="fw-bold">Tell your story the best way you know it!</h4>
                             <p class="card-text">
@@ -124,7 +124,7 @@
                         </div>
                     </div>
 
-                    <div class="card p-2 mb-3">
+                    <div class="card fade-in p-3 mb-3">
                         <img src="./images/se.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h4 class="fw-bold">Meet your buyers!</h4>
@@ -143,8 +143,8 @@
         <!-- non-entreprenuers  -->
         <div class="container-fluid bg-primary py-5" id="everyone">
             <div class="container">
-                <p class="fw-lighter text-white">There's something for everyone!</p>
-                <h2>Or are you looking for a Solution ?</h2>
+                <p class="fw-lighter text-white fade-in">There's something for everyone!</p>
+                <h2 class="fade-in">Or are you looking for a Solution ?</h2>
                 <p class="text-white fw-lighter">
                     From the latest cutting-edge tech solutions, to the most detailed niche products, NGE showcases
                     everything you might need. If you're an investor, potential buyer, or a just a curious footloose
@@ -214,8 +214,8 @@
 
     <!-- Hero section  -->
     <div class="container-fluid bg-dark text-white p-5 h-50">
-        <h2>In a Nutshell!</h2>
-        <p>
+        <h2 class="fade-in">In a Nutshell!</h2>
+        <p class="fade-in">
             Everyday presents the world with an era of entrepreneurs, men and women, who find the right solutions to
             continously shape our world. We know what it takes, we believe innovative solutions exists, and we want to be part of the story!
             Therefore, we're building a platform to bring out these wonderful stories to where it should be, the market! You can think of our
@@ -229,8 +229,8 @@
         <div class="container p-md-5 p-3 vh-50">
             <div class="row">
                 <div class="col-md-6 pt-3">
-                    <h3> NGE </h3>
-                    <h3 class="fw-lighter"> The platform where Next Generation Entrepreneurs get a chance to showcase
+                    <h3 class="fade-in"> NGE </h3>
+                    <h3 class="fw-lighter fade-in"> The platform where Next Generation Entrepreneurs get a chance to showcase
                         their creativity. </h3>
                 </div>
                 <div class="col-4">
@@ -248,18 +248,13 @@
                 </div>
             </div>
         </div>
-        <div class="text-center fw-lighter p-2"> Thanks for being part of us!</div>
+        <div class="text-center fw-lighter p-2 fade-in"> Thanks for being part of us!</div>
     </footer>
-
+    
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
-    <script>
-        function inProgress() {
-            alert('Men at work! Feature build in progress!')
-        }
-    </script>
 </body>
 
 </html>
